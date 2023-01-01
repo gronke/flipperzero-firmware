@@ -33,7 +33,7 @@ static const uint16_t hid_asciimap[] = {
     HID_KEYBOARD_NONE, // ENQ
     HID_KEYBOARD_NONE, // ACK
     HID_KEYBOARD_NONE, // BEL
-    HID_KEYBOARD_DELETE, // BS   Backspace
+    HID_KEYBOARD_BACKSPACE, // BS   Backspace
     HID_KEYBOARD_TAB, // TAB  Tab
     HID_KEYBOARD_RETURN, // LF   Enter
     HID_KEYBOARD_NONE, // VT
@@ -41,7 +41,7 @@ static const uint16_t hid_asciimap[] = {
     HID_KEYBOARD_NONE, // CR
     HID_KEYBOARD_NONE, // SO
     HID_KEYBOARD_NONE, // SI
-    HID_KEYBOARD_NONE, // DEL
+    HID_KEYBOARD_DELETE, // DEL
     HID_KEYBOARD_NONE, // DC1
     HID_KEYBOARD_NONE, // DC2
     HID_KEYBOARD_NONE, // DC3
